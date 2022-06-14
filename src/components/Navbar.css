@@ -1,0 +1,12 @@
+.container
+{
+    margin: 0%;padding-left: 3%;
+    width: 100vw;
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+    font-size: larger;    
+}
+.container .logo{
+    text-decoration: underline;
+}
