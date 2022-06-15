@@ -17,7 +17,7 @@ function EditUser(props) {
         console.log("Working");
         let responce
         try{
-            responce = await axios.patch('https://internregister.herokuapp.com/app/updateUser',{                
+            responce = await axios.patch('https://internregister.herokuapp.com/registrationFrontend/updateUser',{                
                 newDetail
             })
             if(responce)

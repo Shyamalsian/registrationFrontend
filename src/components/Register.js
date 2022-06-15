@@ -20,7 +20,7 @@ function Register() {
         let responce
         try {
             console.log(detail)
-             responce = await axios.post('https://internregister.herokuapp.com/app/addUser'
+             responce = await axios.post('https://internregister.herokuapp.com/registrationFrontend/addUser'
                 ,{          detail                
             }
             )
