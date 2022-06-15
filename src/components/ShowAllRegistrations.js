@@ -9,7 +9,7 @@ function ShowAllRegistrations() {
 
         const getUsers = async (res, req, next) => {
             try {
-                const responce = await axios('http://localhost:5000/app/getAllUser', {
+                const responce = await axios('https://internregister.herokuapp.com/app/getAllUser', {
                     method: 'GET'
                 })
                 console.log(responce.data)

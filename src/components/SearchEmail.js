@@ -16,7 +16,7 @@ function EditRegistration() {
         e.preventDefault();
         let responce
         try {
-            responce = await axios.post('http://localhost:5000/app/checkEmail', { email })
+            responce = await axios.post('https://internregister.herokuapp.com/app/checkEmail', { email })
             console.log(responce.data)
             setUser(responce.data)
             if (responce) {
